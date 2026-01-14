@@ -59,6 +59,10 @@ Unlike older Twenty CRM nodes, this node **dynamically adapts** to your Twenty i
 2. Select **Install**
 3. Enter package name: `n8n-nodes-twenty-dynamic`
 
+### AI Agent Tool Support
+
+This node can be used as an AI Agent tool on n8n versions that support community-node tool usage (requires `N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true`).
+
 ### Requirements (In GEneral Works for Most N8N and Twenty CRM Self Hosted Instances)
 - **Twenty CRM**: v1.4.0 or later - Supports Twenty CRM v1.11.0 (Newest Version as of 2025-12-15)
 - **n8n**: v1.0.0 or later (Recommended) - Supports n8n 2.0 Beta (Newest Version as of 2025-12-15)
@@ -287,5 +291,3 @@ Compatible and tested with the newest Twenty v1.11.0 and n8n Version 2.0 Beta (L
 **Support:** [GitHub Issues](https://github.com/Logrui/n8n-nodes-twenty-dynamic/issues)
 
 **Latest Version:** Check [npm](https://www.npmjs.com/package/n8n-nodes-twenty-dynamic) or [GitHub Releases](https://github.com/Logrui/n8n-nodes-twenty-dynamic/releases)
-
-
