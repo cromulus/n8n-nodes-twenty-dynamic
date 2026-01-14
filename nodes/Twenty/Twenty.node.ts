@@ -44,6 +44,7 @@ export class Twenty implements INodeType {
         },
         inputs: ['main'] as any,
         outputs: ['main'] as any,
+        usableAsTool: true,
         credentials: [
             {
                 name: 'twentyApi',
