@@ -3,7 +3,6 @@
 specs/
 .specify/
 .vscode/
-tests/
 .github/
 
 # Dependencies

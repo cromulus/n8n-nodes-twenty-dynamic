@@ -13,6 +13,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.0.3] - 2026-01-14
+
+### Added
+- ✅ Minimal test suite (`pnpm test`) using Node’s built-in test runner
+
+---
+
 ## [0.9.32] - 2025-10-15
 
 ### 🐛 Bug Fix - Expression Validation for Link Fields

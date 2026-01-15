@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-twenty-dynamic",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Advanced GraphQL n8n node for Twenty CRM with custom database, field support, and resource locators. Complete CRUD support for custom and default databases",
   "keywords": [
     "n8n-community-node-package",
@@ -56,6 +56,7 @@
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
+    "test": "pnpm -s build && node --test tests/*.test.js",
     "lintfix": "eslint nodes credentials package.json --fix",
     "prepublishOnly": "pnpm build && pnpm lint -c .eslintrc.prepublish.js nodes credentials package.json"
   },

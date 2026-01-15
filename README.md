@@ -260,6 +260,7 @@ Please report bugs and request features on [GitHub Issues](https://github.com/Lo
 - 📚 [n8n Community Nodes Documentation](https://docs.n8n.io/integrations/community-nodes/)
 - 🔧 [Twenty Developer Documentation](https://twenty.com/developers/)
 - 🔗 [Twenty GraphQL API Documentation](https://twenty.com/developers/section/graphql)
+- 🧪 Tests: `pnpm test`
 - 📝 [Changelog](CHANGELOG.md) - Version history and release notes
 - 💻 [GitHub Repository](https://github.com/Logrui/n8n-nodes-twenty-dynamic) - Source code and issues
 - 📦 [npm Package](https://www.npmjs.com/package/n8n-nodes-twenty-dynamic) - Package details
